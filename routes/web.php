@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/name/{yourName}', function ($yourName) {
-    echo 'ID:' .$yourName;
+    echo 'Your name:' .$yourName;
 });
